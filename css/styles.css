@@ -124,6 +124,7 @@
   .main-section {
     background-color: #2e2f42;
     display: flex;
+     padding: 188px 0;
   }
 
   .main-title-one {
@@ -133,9 +134,8 @@
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
-        width: 496px;
-        padding: 188px 0;
-        margin: 48px auto;
+        width: 496px; 
+        max-width: 496px;
   }
 
   .button-title-one {
@@ -146,13 +146,14 @@
     letter-spacing: 0.04em;
     color: #fff;
      cursor: pointer;
+      border: none;
     background-color: #4d5ae5;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
        border-radius: 4px;
-           width: 169px;
+     min-width: 169px;
       height: 56px;
-      display: flex;
-    
+      display: block;
+   
   }
 
   .button-title-one:hover,
@@ -183,6 +184,10 @@
       line-height: 1.5;
       letter-spacing: 0.02em;
   }
+
+   .images-team {
+    display: block;
+   }
 
   .section-team {
     background-color: #f4f4fd;
@@ -233,6 +238,10 @@
       text-align: center;
   }
 
+  .images-portfolio {
+    display: block;
+  }
+
   .portfolio-list {
     display: flex;
     align-content: center;
@@ -279,17 +288,19 @@
 
   .page-footer {
     background-color: #2e2f42;
+    padding: 100px 0;
   }
 
 
   .footer-logo .logo-part {
     color: #f4f4fd;
-  }
+   }
+
 
     .footer-logo {
       display: inline-block;
       margin-bottom: 16px;
-    }
+  } 
 
   .paragraph-footer {
       font-size: 16px;
